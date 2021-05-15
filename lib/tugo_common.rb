@@ -7,6 +7,9 @@ require 'tugo_common/grpc_service'
 require 'tugo_common/version'
 require 'tugo_common/request_params_base'
 require 'tugo_common/master_data_related/master_data'
+require 'tugo_common/error_handler/base_handler'
+require 'tugo_common/error_handler/invalid_request_params_handler'
+require 'tugo_common/error_handler/service_error_handler_result'
 
 module TugoCommon
   class Error < StandardError; end
