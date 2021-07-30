@@ -29,6 +29,6 @@ Gem::Specification.new do |spec|
   # guide at: https://bundler.io/guides/creating_gem.html
   spec.add_dependency 'gruf', '~> 2.10'
   spec.add_dependency 'gruf-stackdriver-trace', '~> 0.1.0'
-  spec.add_dependency 'jwt', '~> 2.2', '>= 2.2.2'
+  spec.add_dependency 'jwt', '~> 2.2', '>= 2.2.3'
   spec.add_dependency 'stackdriver', '~> 0.21.0'
 end
