@@ -18,7 +18,7 @@ module TugoCommon
         }.merge(client_options.to_h)
       )
 
-      metadata = auth_header.nil? ? {} : { authorrization: auth_header }
+      metadata = auth_header.nil? ? {} : { authorization: auth_header }
 
       client.call(method, params, metadata)
     end
